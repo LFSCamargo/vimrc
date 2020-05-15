@@ -37,6 +37,7 @@ Plug 'prettier/vim-prettier', {
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'elixir-editors/vim-elixir'
 Plug 'slashmili/alchemist.vim'
+Plug 'rafalbromirski/vim-aurora'
 
 call plug#end()
 "================================
@@ -294,7 +295,8 @@ syntax enable
 
 let g:rehash256 = 1
 syntax enable
-colorscheme dracula
+set termguicolors
+colorscheme aurora
 
 " Set utf8 as standard encoding and en_US as the standard language
 set encoding=utf8
