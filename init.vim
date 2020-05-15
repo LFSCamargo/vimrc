@@ -35,6 +35,8 @@ Plug 'prettier/vim-prettier', {
   \ 'branch': 'release/0.x'
   \ }
 Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'elixir-editors/vim-elixir'
+Plug 'slashmili/alchemist.vim'
 
 call plug#end()
 "================================
