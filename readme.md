@@ -4,15 +4,15 @@ Hello Welcome to my NeoVim Configuration Repository, follow the instructions bel
 
 # Pre Requisites
 
-- NeoVim - (How to install)[https://github.com/neovim/neovim/wiki/Installing-Neovim]
-- Plug - (How to Install)[https://github.com/junegunn/vim-plug]
+- NeoVim - [How to install](https://github.com/neovim/neovim/wiki/Installing-Neovim)
+- Plug - [How to Install](https://github.com/junegunn/vim-plug)
 
 # Installation Process
 
 1. Clone the repository `gh repo clone LFSCamargo/vimrc`
-2. Install NeoVim following the installation (here)[https://github.com/neovim/neovim/wiki/Installing-Neovim]
+2. Install NeoVim following the installation [here](https://github.com/neovim/neovim/wiki/Installing-Neovim)
 3. Copy the `init.vim` configuration to load the `.vimrc` from the root of your machine, copy and paste it inside the NeoVIM config folder the path should be like this `.config/nvim/init.vim`
-4. Install Plug to handle the Plugins following the installation (here)[https://github.com/junegunn/vim-plug]
+4. Install Plug to handle the Plugins following the installation [here](https://github.com/junegunn/vim-plug)
 5. Copy the `.vimrc` to the root folder of your PC `~/.vimrc` is usually the shortcut for Linux, Mac, and WSL Windows; possible locations for the vim config
 6. Run the command to open the vim and install the plugins of Plug `nvim +PlugInstall`
 7. To setup Github Copilot run `nvim` when the editor opens, and type `:Copilot setup`
