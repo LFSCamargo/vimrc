@@ -15,3 +15,4 @@ Hello Welcome to my NeoVim Configuration Repository, follow the instructions bel
 4. Install Plug to handle the Plugins follow the installation (here)[https://github.com/junegunn/vim-plug]
 5. Copy the `.vimrc` to the root folder of your PC `~/.vimrc` normally thats the shortcut for the Linux, Mac and WSL Location for the vim config
 6. Run the command to open the nvim and install the plugins of Plug `nvim +PlugInstall`
+7. To setup copilot with your Github Account simply run `nvim` when the editor open type `:Copilot setup`
